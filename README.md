@@ -1,2 +1,2 @@
 # godumps
-simple repo for keep golang samples for learning purposes
+simple go lang mini programs for learning purposes
