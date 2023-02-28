@@ -35,7 +35,7 @@ func main() {
 			fmt.Printf("OK rewrite-url=\"%s\"\n", os.Args[2])
 			log.Write([]byte("OK"))
 		} else {
-			log.Write([]byte("ERR"))
+			log.Write([]byte("ERR\n"))
 			fmt.Printf("ERR\n")
 		}
 	}
